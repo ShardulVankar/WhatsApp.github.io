@@ -1,0 +1,385 @@
+<html>
+	<head>
+	<!-- <link rel="import" href="index.html"/> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	
+	<link rel="shortcut icon" href="whatsapp.png" />
+		<title>WhatsApp</title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="glyphicon.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+	
+	<div class="container-fluid" style="height:100%">
+	<div class="row">
+		
+		<div class="col-md-4" style="height:100%;border-right:1px solid">
+			<div class="row">  <!-- this row is imp to fill the whole width otherwise it wont take the whole width -->
+			
+			<!-- For Profile pic -->
+			<div class="col-12" style="height:10%">
+			
+			<div class="row h-100 justify-content-end align-items-end" style="background-color:rgb(238,238,238);">
+				<div class="col-6" style="height:100%">
+				<a href="changeProfilePic.html">
+					<img src="profilePic.jpg" class="img-fluid" style="height:100%;border-radius:50%"></div>
+				</a>
+				
+				<div class="col-2" style="height:100%;" align="center">
+					<div class="row h-100 justify-content-center align-items-center">
+				<i class="fas fa-sync-alt text-muted" style="font-size:1.2rem"></i>
+					</div>
+				</div>
+				<div class="col-2" style="height:100%;" align="center">
+					<div class="row h-100 justify-content-center align-items-center">
+				<i class="fas fa-comment-alt text-muted" style="font-size:1.2rem"></i>
+					</div>
+				</div>
+				
+				<div class="col-2" style="height:100%">
+					<div class="row h-100 justify-content-center align-items-center">
+					<div class="dropdown">
+  <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-image:url(toggle.png);background-repeat:no-repeat;height:28px;border-radius:0px;border:0px">
+    
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">New group</a>
+    <a class="dropdown-item" href="#">Profile</a>
+    <a class="dropdown-item" href="#">Archived</a>
+	  <a class="dropdown-item" href="#">Starred</a>
+    <a class="dropdown-item" href="#">Settings</a>
+    <a class="dropdown-item" href="#">Log out</a>
+  </div>
+</div>
+				</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!-- For Search -->
+			<div class="col-12" style="height:10%;background-color:rgb(247,249,250);">
+				<div class="row h-100 justify-content-center align-items-center" style="height:10%;">
+						<input class="text-muted" type="text" placeholder="Search or start new chat" style="width:90%;background-image:url(search.png);background-repeat:no-repeat;text-indent:35px"/>
+				</div>
+			</div>
+			
+			<!-- For Chats -->
+		<div class="col-12" style="height:80%">
+			<div class="row">
+				
+			<a href style="text-decoration:none;color:black"><div class="col-12" style="border-bottom: 1px solid grey;border-top: 1px solid grey;height:15%">
+				<div class="row">
+					<div class="col-3">
+						<div class="row h-100 justify-content-center align-items-center">
+							<img src="nature1.jpg" class="img-fluid" style="border-radius:50%;width:60%;height:80%">
+						</div>
+					</div>
+					
+					<div class="col-7" style="padding:0px">
+						<div class="row h-100 justify-content-start align-items-start">
+							<div class="col-12">
+								
+									<div style="margin-top:5px">Sonali
+								</div>
+							</div>
+							
+							<div class="col-12" >
+								
+									<div class="text-muted">
+										<img src="blue-ticks.png">OK
+								</div>
+							</div>	
+						</div>
+					</div>
+					
+					<div class="col-2 text-muted">
+						<div class="row h-100 justify-content-center align-items-center">
+							10:10AM
+						</div>
+					</div>
+					
+				</div>
+			</div></a>
+				<a href style="text-decoration:none;color:black"><div class="col-12" style="border-bottom: 1px solid grey;height:15%">
+					<div class="row">
+					<div class="col-3">
+						<div class="row h-100 justify-content-center align-items-center">
+							<img src="nature1.jpg" class="img-fluid" style="border-radius:50%;width:60%;height:80%">
+						</div>
+					</div>
+					
+					<div class="col-7" style="padding:0px">
+						<div class="row h-100 justify-content-start align-items-start">
+							<div class="col-12">
+								
+									<div style="margin-top:5px"><b>Discussion</b>
+								</div>
+							</div>
+							
+							<div class="col-12" >
+								
+									<div class="text-muted">
+										<img src="blue-ticks.png">OK
+								</div>
+							</div>	
+						</div>
+					</div>
+					
+					<div class="col-2 text-muted">
+						<div class="row h-100 justify-content-center align-items-center">
+							10:10AM
+						</div>
+					</div>
+					
+				</div>
+				</div></a>
+				<a href style="text-decoration:none;color:black"><div class="col-12" style="border-bottom: 1px solid grey;height:15%">
+					<div class="row">
+					<div class="col-3">
+						<div class="row h-100 justify-content-center align-items-center">
+							<img src="nature1.jpg" class="img-fluid" style="border-radius:50%;width:60%;height:80%">
+						</div>
+					</div>
+					
+					<div class="col-7" style="padding:0px">
+						<div class="row h-100 justify-content-start align-items-start">
+							<div class="col-12">
+								
+									<div style="margin-top:5px"><b>Friends</b>
+								</div>
+							</div>
+							
+							<div class="col-12" >
+								
+									<div class="text-muted">
+										<img src="blue-ticks.png">OK
+								</div>
+							</div>	
+						</div>
+					</div>
+					
+					<div class="col-2 text-muted">
+						<div class="row h-100 justify-content-center align-items-center">
+							10:10AM
+						</div>
+					</div>
+					
+				</div>
+				</div></a>
+				<a href style="text-decoration:none;color:black"><div class="col-12" style="border-bottom: 1px solid grey;height:15%">
+					<div class="row">
+					<div class="col-3">
+						<div class="row h-100 justify-content-center align-items-center">
+							<img src="nature1.jpg" class="img-fluid" style="border-radius:50%;width:60%;height:80%">
+						</div>
+					</div>
+					
+					<div class="col-7" style="padding:0px">
+						<div class="row h-100 justify-content-start align-items-start">
+							<div class="col-12">
+								
+									<div style="margin-top:5px">Ameya
+								</div>
+							</div>
+							
+							<div class="col-12" >
+								
+									<div class="text-muted">
+										<img src="blue-ticks.png">OK
+								</div>
+							</div>	
+						</div>
+					</div>
+					
+					<div class="col-2 text-muted">
+						<div class="row h-100 justify-content-center align-items-center">
+							10:10AM
+						</div>
+					</div>
+					
+				</div>
+				</div></a>
+			</div>
+		</div>
+	</div>
+		</div>
+		
+		
+		<div class="col-md-8" style="height:100%;background-color:rgb(247,249,250);">
+			<div class="row">
+				<!-- header -->
+			<div class="col-12" style="height:10%;background-color:rgb(247,249,250)">
+				
+				<div class="row h-100 justify-content-center align-items-end" style="background-color:rgb(238,238,238);">
+				
+				<div class="col-2" style="">
+				<img src="nature1.jpg" class="img-fluid" style="height:100%;border-radius:50%;">
+				</div>
+				
+				<div class="col-6" style="">
+				<div class="row h-100 justify-content-start">
+				<div>Ameya</div>
+				<div class="text-muted w-100" style="font-size:0.9rem">last seen today at 11:47AM</div>
+				</div>
+				</div>
+				
+				
+				<div class=" col-1" style="height:100%;">
+					<div class="row h-100 justify-content-center align-items-center">
+	 <a href=""><i class="fas fa-search text-muted" style="font-size:1.2rem"></i></a>
+					</div>
+				</div>
+				
+				<div class="col-1" style="">
+					<div class="row h-100 justify-content-center align-items-center">
+	 <a href=""><i class="fas fa-paperclip text-muted" style="font-size:1.2rem"></i></a>
+					</div>
+				</div>
+				<div class="col-1" style="">
+				<div class="row h-100 justify-content-center align-items-center">
+	 <a href=""><i class="fas fa-ellipsis-v text-muted" style="font-size:1.2rem"></i></i></a>
+					</div>
+				
+				
+
+
+				</div>
+				
+				</div>
+			
+			</div>
+				
+				<!-- body -->
+				<div class="col-12" style="height:82%;background-color:rgb(247,249,250);overflow:auto">
+					<div class="row w-100"><br/>
+						
+							<div class="row w-100 justify-content-start panel" style="margin-left:20px;">
+								
+							<div style="font-size:1rem;border-radius:10%;background-color:white">hi
+								<div style="font-size:0.8rem">  10:20AM </div>
+								 </div>
+							</div>
+							
+							
+							<div class="row w-100 justify-content-end" style="">
+								<div style="border-radius:10%;font-size:1rem;background-color:rgb(220,248,198)">hello
+								<div style="font-size:0.8rem">  10:20AM </div>
+								</div>
+							</div>
+					</div>
+							
+					<div class="row w-100"><br/>
+						
+							<div class="row w-100 justify-content-start panel" style="margin-left:20px;">
+								
+							<div style="font-size:1rem;border-radius:10%;background-color:white">What are you doing?
+								<div style="font-size:0.8rem">  10:21AM </div>
+								 </div>
+							</div>
+							
+							
+							<div class="row w-100 justify-content-end" style="">
+								<div style="border-radius:10%;font-size:1rem;background-color:rgb(220,248,198)">nothing...watching TV
+								<div style="font-size:0.8rem">  10:23AM </div>
+								</div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-end" style="">
+								<div style="border-radius:10%;font-size:1rem;background-color:rgb(220,248,198)">And You?
+								<div style="font-size:0.8rem">  10:24AM </div>
+								</div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-start panel" style="margin-left:20px;">
+								
+							<div style="font-size:1rem;border-radius:10%;background-color:white">hanging out with friends
+								<div style="font-size:0.8rem">  10:25AM </div>
+								 </div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-start panel" style="margin-left:20px;">
+								
+							<div style="font-size:1rem;border-radius:10%;background-color:white">Are you going to meet tomorrow?
+								<div style="font-size:0.8rem">  10:25AM </div>
+								 </div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-end" style="">
+								<div style="border-radius:10%;font-size:1rem;background-color:rgb(220,248,198)">No... Am out with family
+								<div style="font-size:0.8rem">  10:29AM </div>
+								</div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-end" style="">
+								<div style="border-radius:10%;font-size:1rem;background-color:rgb(220,248,198)">Lets meet in next week
+								<div style="font-size:0.8rem">  10:30AM </div>
+								</div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-start panel" style="margin-left:20px;">
+								
+							<div style="font-size:1rem;border-radius:10%;background-color:white">Sure
+								<div style="font-size:0.8rem">  10:31AM </div>
+								 </div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-end" style="">
+								<div style="border-radius:10%;font-size:1rem;background-color:rgb(220,248,198)">ok see you then...bye
+								<div style="font-size:0.8rem">  10:32AM </div>
+								</div>
+							</div>
+							<div class=" row w-100" style="height:2vh"></div>
+								<div class="row w-100 justify-content-start panel" style="margin-left:20px;">
+								
+							<div style="font-size:1rem;border-radius:10%;background-color:white">bye
+								<div style="font-size:0.8rem">  10:31AM </div>
+								 </div>
+							</div>
+					</div>
+				</div>
+				<div class="col-12" style="height:8%;background-color:rgb(245,241,238)">
+				<div class="row">
+					<div class="col-1" style="">
+						<div class="row h-100 justify-content-center align-items-center">
+							<i class="far fa-smile text-muted" style="font-size:1.5rem"></i>
+						</div>
+					</div>
+					
+					<div class="col-10" style="">
+						<div class="row h-100 justify-content-center" style="padding:5px">
+							
+								<div class="form-group">
+									 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Type a message" style="width:52vw">
+								</div>
+							
+						</div>
+					</div>
+					
+					<div class="col-1 " style="">
+						<div class="row h-100 justify-content-center align-items-center">
+							<i class="fas fa-microphone text-muted"style="font-size:1.5rem"></i>
+
+						</div>
+					</div>
+					
+				</div>
+			
+			</div> <!-- end of col-12 -->
+		</div>
+			</div>
+			
+		</div>
+	</div>	
+	
+	
+	
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	</body>
+</html>
